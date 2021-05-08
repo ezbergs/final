@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: Verdana;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  background-size: 150%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+.content {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.content nav {
+  width: 600px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.content nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content nav li {
+  float: left;
+  width: 110px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin: 10px;
+  background: rgb(92, 92, 92);
+  color: #fff;
+  opacity: 0.8;
+}
+
+.content nav li:hover {
+  background: #000;
+}
+
+.content .prof-box {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 40px;
+  opacity: 0.9;
+}
+
+.content .prof-box .image {
+  margin: 0px auto;
+  width: 30%;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 6px solid #4e4e4e;
+}
+
+.content .prof-box .gallery {
+  float: left;
+  width: 380px;
+  height: 280px;
+  margin: 10px;
+}
+
+.content .prof-box .row {
+  float: left;
+  width: 100%;
+}
+
+.comment-box {
+  width: 100%;
+  background: #fff;
+  opacity: 0.9;
+  margin-top: 40px;
+  border-radius: 40px;
+  padding-bottom: 20px;
+}
+
+.comment-box .name {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.comment-box .comment {
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4e4e4e;
+}
+
+.comment-box .add {
+  float: left;
+  width: 95%;
+  margin: 20px;
+}
+
+.comment-box .text {
+  float: left;
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.comment-box .add-button {
+  float: left;
+  padding: 15px;
+  margin: 20px;
+  background: #4e4e4e;
+  color: #fff;
+  border: 0;
+}
+
+.comment-added {
+  width: 100%;
+  background: rgb(0, 206, 0);
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 40px;
+}
